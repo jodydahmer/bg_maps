@@ -10,9 +10,17 @@ font-size:15px;
 
     color:green;
 
+}
 
 .center-info {
 
     float:center;
 }
+
+
+.right-info {
+
+float:right;
+
+
 }
