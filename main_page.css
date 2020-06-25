@@ -1,9 +1,9 @@
 
-.p [
+.p {
 color:black;
 font-size:15px;
 
-]
+}
 
 .background-color {
 
@@ -11,5 +11,8 @@ font-size:15px;
     color:green;
 
 
+.center-info {
 
+    float:center;
+}
 }
