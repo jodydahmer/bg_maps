@@ -1,5 +1,9 @@
-@nedia screen and (max-width:780px)
+@media screen and (max-width:780px)
 
+.container {
+
+    display:flex;
+}
 
 .p {
 color:black;
@@ -21,9 +25,3 @@ font-family:'Arial';
 }
 
 
-.right-info {
-
-float:right;
-
-
-}
