@@ -2,7 +2,7 @@
 
 .container {
 
-    display:flex;
+    display: inline-flex;
 }
 
 .p {
@@ -24,4 +24,10 @@ font-family:'Arial';
     float:center;
 }
 
+.button {
 
+    color: aliceblue;
+    padding: 0%;
+    font-size:1em ;
+    background-color: aliceblue;
+}
