@@ -3,6 +3,7 @@
     .container {
 
     display: inline-flex;
+    flex-direction:right;
 }
 
 .p {
