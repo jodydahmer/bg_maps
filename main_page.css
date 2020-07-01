@@ -1,6 +1,6 @@
 @media screen and (max-width:780px)
-
-.container {
+{
+    .container {
 
     display: inline-flex;
 }
@@ -30,4 +30,7 @@ font-family:'Arial';
     padding: 0%;
     font-size:1em ;
     background-color: aliceblue;
+}
+
+
 }
