@@ -3,7 +3,8 @@
     .container {
 
     display: inline-flex;
-    flex-direction:right;
+    flex-direction:wrap;
+    justify-content: center;
 }
 
 .p {
