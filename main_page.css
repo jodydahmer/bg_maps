@@ -49,5 +49,10 @@ font-family:'Arial';
     background-color: aliceblue;
 }
 
+input[type="button"], {
+
+    cursor:pointer;
+}
+
 
 }
