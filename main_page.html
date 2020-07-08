@@ -87,13 +87,28 @@
     Beargrass Creek is a creek in majority white neighborhoods along Poplar Level Road as well as majority white Butchertown but is channelized into a concrete ditch as it flows through Germantown and Smoketown.
     Currently, a study is underway by the Army Corps to restore Beargrass Creek, but we need to keep pushing for ways for residents to cross in order to access amenities and safer paths home. This can be a way to heal past transgressions against minority communities.</p>
 </p>
-<form action="main_page.html" method="post">
-<h1>Sign Up to Learn More! </h1>
-    <input type="text" id="name" name="user_name">
-    <input type="email" id="mail" name="user_email">
-    <input type="password" id="password" name="user_password">
-</form>
+	<div id="container">
+		<form class="form-contact br">
+	  	<h1>Contact</h1>
 
+		  <label for="name">Name:</label> 
+		  <input type="text" id="name">
+
+     	<label for="email">Email:</label>
+     	<input type="email" id="email" placeholder="email@website.com">
+  		
+			<label>What are you interested in learning more about?:</label>
+			<input type="checkbox" id="development" name="user_interest"><label for="development">Bowling Green</label><br>
+			<input type="checkbox" id="design" name="user_interest"><label for="design">Louisville</label><br>
+			<input type="checkbox" id="business" name="user_interest"><label for="business">Transit! </label><br>
+			
+     	<label for="msg">Message:</label>			
+ 			<textarea id="msg" rows="4"></textarea>
+			
+          <input class="btn default" type="submit" value="Submit">
+          <button type="reset">Start Over</button>
+		</form>
+	</div>
 
 </div>
 </body>
