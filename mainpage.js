@@ -1,5 +1,5 @@
 
-let userCommute=prompt ("What is your average commute time?");
+let userCommute=prompt.("What is your average commute time?");
 
 let Commute = prompt ("What is your commute home?");
 
