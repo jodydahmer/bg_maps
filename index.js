@@ -1,4 +1,15 @@
 
+let commuteTime = prompt('What is your commute time to work?')
+
+
+const totalCommute = x * 2 
+
+daysperWeek = totalCommute * 7 
+daysPerYear= daysperWeek *52
+
+TimeSaved= daysPerYear / 24
+
+
 let userCommute=prompt.("What is your average commute time?");
 
 let Commute = prompt ("What is your commute home?");
