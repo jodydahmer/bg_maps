@@ -1,5 +1,11 @@
 
-    
+    * {
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+
+
+    }
 
     /*************************
 Base Styles
@@ -16,7 +22,32 @@ html {
     box-sizing: inherit;
   }
   
+.menu-btn {
+  position:relative;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width:80px;
+  height:80px;
+  cursor: pointer;
+  border :3px solid #ffffff;
+  
+}
+
+.menu-button-burger::before {
+  transform:translateY(-16px);
+  
+}
+
+.menu-button-burger::after {
+  transform:translateY(16px);
+  
+}
+
   body {
+    background: #999;
+    display:flex;
+    min-height:100vh;
     font-family: Helvetica, Helvetica Neue, Arial;
     font-size: 16px;
     line-height: 26px;
@@ -90,10 +121,8 @@ html {
     padding: 20px 0;
   }
   
-  
-  /*************************
-  Media Queries
-  *************************/
+
+  /*Media Queries*/
   
   @media only screen and (min-width: 480px) {
   
@@ -181,3 +210,23 @@ html {
   }
   
   
+  /* Animation For Hamburger Menu */
+
+.menu-btn.open .menu-btn-burger {
+
+  transform : translateX(-50px);
+  background:transparent;
+  box-shadow:none;
+}
+
+.menu-btn.open .menu-btn-burger::before {
+
+  transform: rotate (45 deg) translate(35px, -35px);
+
+}
+
+.menu-btn.open .menu-btn-burger::after {
+
+  transform: rotate (-45 deg) translate(35px, -35px);
+
+}
