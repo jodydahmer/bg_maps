@@ -20,7 +20,7 @@ console.log(carCommuteYear);
 let hoursPerWeek = carCommuteWeek/60;
 console.log( Math.ceil(hoursPerWeek));
 let daysPerYear = Math.floor(carCommuteYear/60/24);
-console.log('You drive ${daysPerYear}');
+console.log('You drive ${daysPerYear} days per year!');
 
 //Current Problems : 
 //How do I write the variables to the HTML?
