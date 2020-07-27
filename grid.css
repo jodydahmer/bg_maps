@@ -1,12 +1,51 @@
 /* GRID LAYOUT */
 body {background-color: #333333;}
-h1, h2 ,h3, p , ul , ol{
+*{
     color:white;
+    
 }
+
+h1, h2 ,h3 ,h4  {
+    text-align:center;
+
+}
+
+img {
+    display:center;
+}
+
+/*Nav Bar Layout!*/
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    border: 1px solid whitesmoke;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Change link hover color for Pizzazz*/
+li a:hover {
+    background-color: whitesmoke;
+    color:black;
+}
+
 .grid {
-    display:grid
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: repeat (auto-fit 5 1fr);
     grid-gap:15px;
 }
 
+.sr-only {
+    color:white;
+}
 

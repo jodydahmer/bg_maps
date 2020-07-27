@@ -1,6 +1,11 @@
 // Trying to calculate total commute times for residents getting to work
 
 let input = prompt("What's your average commute to work in minutes? ");
+function validation (input){
+    if (input==="") {
+        return ('You need to put in a valid number please');
+    }
+
 let carCommuteTime = parseInt(input);
 
  //You have two commutes a day, one to work and one going home
@@ -20,7 +25,12 @@ console.log(carCommuteYear);
 let hoursPerWeek = carCommuteWeek/60;
 console.log( Math.ceil(hoursPerWeek));
 let daysPerYear = Math.floor(carCommuteYear/60/24);
-console.log('You drive ${daysPerYear} days per year!');
+
+
+console.log(daysPerYear);
+
+
+
 
 //Current Problems : 
 //How do I write the variables to the HTML?
