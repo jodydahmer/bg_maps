@@ -69,6 +69,8 @@ console.log( "Rounded down, you drive about" + " " + daysPerYear + " " + standar
 
   print("You said you drove" + carCommuteTime + " " + standardTimeIncrements[1][1]);
   console.log("You said you drove" + " " + carCommuteTime + " " + standardTimeIncrements[1][1]);
+
+  document.getElementById('commute').innerHTML = (" You drive" + " " + carCommuteDay + " " + standardTimeIncrements[1][1] +" " +  "round-trip to work!");
   
   // function printCommute (commute) {
     //     var minutesCommute = '<ol> ';
