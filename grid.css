@@ -6,6 +6,11 @@
   
   
       }
+
+      body {
+        font-family: 'Tajawal', sans-serif;
+        font-size: 18px;
+      }
   
       
 html {
@@ -161,3 +166,4 @@ li a:hover {
 .form-h1 {
     left: margin 0;
 }
+
