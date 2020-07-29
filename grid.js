@@ -1,7 +1,7 @@
 // Carousel Controls Thanks to Javascript and the DOM I understand what this means!!!!
 
 var slideIndex = 1;
-const showSlides(slideIndex);
+
 
 // Next/previous controls
 function plusSlides(n) {
@@ -23,7 +23,7 @@ function carousel() {
     if (myIndex > x.length) {myIndex = 1}    
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 9000);    
-  }
+  };
 
 //Made a two-dimensional array! 
 
@@ -68,7 +68,7 @@ console.log( "Rounded down, you drive about" + " " + daysPerYear + " " + standar
 
 
   print("You said you drove" + carCommuteTime + " " + standardTimeIncrements[1][1]);
-  console.log("You said you drove" + " " + carCommuteTime + " " + standardTimeIncrements[1][1])
+  console.log("You said you drove" + " " + carCommuteTime + " " + standardTimeIncrements[1][1]);
   
   // function printCommute (commute) {
     //     var minutesCommute = '<ol> ';
