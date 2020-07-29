@@ -106,6 +106,4 @@ console.log( "Rounded down, you drive about" + " " + daysPerYear + " " + standar
   // //     return;
   // //   }
 
-  // // });
-  
   
