@@ -57,9 +57,9 @@ console.log(" You drive" + " " + carCommuteYear + " " + standardTimeIncrements[1
 console.log(" That's" + " " + carCommuteYear/60/24 + " " + standardTimeIncrements[3][1] + "!");
 
 let hoursPerWeek = carCommuteWeek/60;
-console.log( "Rounded up, you drive almost" + " " + Math.ceil(hoursPerWeek) + " " + standardTimeIncrements[2][1]);
+console.log( "Rounded up, you drive almost" + " " + Math.ceil(hoursPerWeek) + " " + standardTimeIncrements[2][1] + "every week!");
 let daysPerYear = Math.floor(carCommuteYear/60/24);
-console.log( "Rounded down, you drive about" + " " + daysPerYear + " " + standardTimeIncrements[3][1]);
+console.log( "Rounded down, you drive about" + " " + daysPerYear + " " + standardTimeIncrements[3][1] + "every year!");
 
 
   function print(message) {
