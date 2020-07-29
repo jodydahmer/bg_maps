@@ -57,9 +57,9 @@ console.log(" You drive" + " " + carCommuteYear + " " + standardTimeIncrements[1
 console.log(" That's" + " " + carCommuteYear/60/24 + " " + standardTimeIncrements[3][1] + "!");
 
 let hoursPerWeek = carCommuteWeek/60;
-console.log( "Rounded up, you drive almost" + " " + Math.ceil(hoursPerWeek) + " " + standardTimeIncrements[2][1] + "every week!");
+console.log( "Rounded up, you drive almost" + " " + Math.ceil(hoursPerWeek) + " " + standardTimeIncrements[2][1] + " " + "every week!");
 let daysPerYear = Math.floor(carCommuteYear/60/24);
-console.log( "Rounded down, you drive about" + " " + daysPerYear + " " + standardTimeIncrements[3][1] + "every year!");
+console.log( "Rounded down, you drive about" + " " + daysPerYear + " " + standardTimeIncrements[3][1] + " " + "every year!");
 
 
   function print(message) {
@@ -67,21 +67,20 @@ console.log( "Rounded down, you drive about" + " " + daysPerYear + " " + standar
   };
 
 
-  print("You said you drove" + carCommuteTime + " " + standardTimeIncrements[1][1]);
-  console.log("You said you drove" + " " + carCommuteTime + " " + standardTimeIncrements[1][1] + "!");
+  // print("You said you drove" + carCommuteTime + " " + standardTimeIncrements[1][1]);
+   console.log("You said you drove" + " " + carCommuteTime + " " + standardTimeIncrements[1][1] + "!");
 
-  document.getElementById('commute').innerHTML = (" You drive" + " " + carCommuteDay + " " + standardTimeIncrements[1][1] +" " +  "round-trip to work!");
-  
-  // function printCommute (commute) {
-    //     var minutesCommute = '<ol> ';
-    //     for (var i=0 ; i < commute.length; i += 1) {
-    //         minutesCommute += '<li>' + '<p> You drive for ' + carCommuteWeek[i] + 'every' +  + '</p>' + '</li>';
-    //         printCommute += '<ol>';
-    //         print(minutesCommute);
-    //     };
+  //  document.getElementById('commute').innerHTML = (" You drive" + " " + carCommuteDay + " " + standardTimeIncrements[1][1] +" " +  "round-trip to work!"};
+  //   function printCommute (commute) {
+  //         var minutesCommute = '<ol> ';
+  //         for (var i=0 ; i < commute.length; i += 1) {
+  //             minutesCommute += '<li>' + '<p> You drive for ' + carCommuteWeek[i] + 'every' +  + '</p>' + '</li>';
+  //             printCommute += '<ol>';
+  //             print(minutesCommute);
+  //         };
 
-//   html = "You got" + carCommuteTime + "going to work";
-//   print(html);
+//    html = "You got" + carCommuteTime + "going to work";
+// //   print(html);
 
 
 //   console.log("You said you drive " + " " carCommuteTime + " " + standardTimeIncrements[1],[1] + "going to work")
@@ -89,29 +88,24 @@ console.log( "Rounded down, you drive about" + " " + daysPerYear + " " + standar
 
 //User Form validation
 
-function validateForm() {
+// function validateForm() {
 
-  if (email.value =="" || email.value < 0 ) {
+//   if (email.value =="" || email.value < 0 ) {
 
-    alert("Please enter a full email with @");
-  return false;
-  }
+//     alert("Please enter a full email with @");
+//   return false;
+//   };
     
-  let submit = document.getElementById("button-submit");
-  submit.addEventListener("click", function (){
-    console.log("submit clicked");
+  // let submit = document.getElementById("button-submit");
+  // submit.addEventListener("click", function (){
+  //   console.log("submit clicked");
 
-    //validate form entry
+  //   //validate form entry
 
-    if(validateForm()== false) {
-      return;
-    }
+  // //   if(validateForm()== false) {
+  // //     return;
+  // //   }
 
-  })
+  // // });
   
   
-  
-  
-  
-  )
-}
