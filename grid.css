@@ -1,3 +1,103 @@
+
+    * {
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+  
+  
+      }
+  
+      
+html {
+    color: whitesmoke;
+    font-size: 1em;
+    line-height: 1.4;
+    box-sizing: border-box;
+  }
+  /*Media Queries*/
+  
+  @media only screen and (min-width: 480px) {
+    
+    
+    grid{
+    display: inline-block;
+    }
+
+  @media only screen and (min-width: 700px) and (orientation: landscape) {
+             
+          
+    .title {
+      float: left;
+      font-size: 1.4em;
+    }
+  
+    nav {
+      float: right;
+      width: 60%;
+    }
+  
+    nav a {
+      padding: 15px 1%;
+    }
+  
+    .main article {
+      float: left;
+      width: 57%;
+    }
+  
+    .main aside {
+      float: right;
+      width: 38%;
+    }
+    
+  }
+  
+  @media only screen and (min-width: 1140px) {
+  
+    .wrapper {
+      width: 1026px;
+      margin: 0 auto;
+    }
+  
+    .title {
+      font-size: 2em;
+    }
+  
+    nav a {
+      padding: 25px 1%;
+    }
+    
+  }
+
+/* 
+  Nav Bar */
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #599a68;
+  }
+  
+  nav a:hover,
+  nav a:visited {
+    color: white;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
 /* GRID LAYOUT */
 body {background-color: #333333;}
 *{

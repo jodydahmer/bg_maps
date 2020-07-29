@@ -1,7 +1,7 @@
 README.md
 A description of your project
 
-This is my Code Louisville project telling a short history about how to best connect Bowling Green neighborhoods as well as help the user realize how much of their time is spent driving to work. We are focusing on the Kentucky city of Bowling Green and Louisville and analyzing maps of the road connections. 
+This is my Code Louisville project telling a short history about how to best connect Bowling Green neighborhoods as well as help the user realize how much of their time is spent driving to workgit . We are focusing on the Kentucky city of Bowling Green and Louisville and analyzing maps of the road connections. 
 
 
 
@@ -9,7 +9,7 @@ This is my Code Louisville project telling a short history about how to best con
 Check out our previous work at Beargrassthunder.com (link[https://www.beargrassthunder.com])
 This project is using my research and expertise in cartography (mapmaking) to show hidden disparities in Bowling Green, KY Transit and transportation.
  
-What features you chose to included (so we know what to look for)
+What features you chose to include (so we know what to look for)
 
 1. Image carousel with 3 images that rotate through
 2. Use CSS Grid to rearrange 2 or more content areas on your page as the screen changes sizes
@@ -18,7 +18,7 @@ What features you chose to included (so we know what to look for)
 5. Create and populate a JavaScript array, then retrieve and display one or more values from it
 6. Use JavaScript to perform math operations and display the result on your site
 Any special instructions we might need to run your project
-
+7. Media Queries 
 
 
 
