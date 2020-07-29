@@ -1,19 +1,17 @@
 README.md
-
-It must include a README file located at the top level directory of your project that includes:
 A description of your project
 
-
-
+This project is using my research and expertise in cartography (mapmaking) to show hidden disparities in Bowling Green, KY Transit and transportation.
+ 
 What features you chose to included (so we know what to look for)
-CSS Grid
-Javascript prompts and arrays
 
+1. Image carousel with 3 images that rotate through
+2. Javascript to perform user-input math operations and displayed result on site
+3. Javascript 
+4. CSS Grid
+5. Nth Child CSS:   border around every 2nd child of parent <div> tag
 
 Any special instructions we might need to run your project
-
-
-
 
 
 
