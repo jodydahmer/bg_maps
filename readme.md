@@ -3,10 +3,10 @@ A description of your project
 
 This is my Code Louisville project telling a short history about how to best connect Bowling Green neighborhoods as well as help the user realize how much of their time is spent driving to workgit . We are focusing on the Kentucky city of Bowling Green and Louisville and analyzing maps of the road connections. 
 
+The link on Github Pages is (link[https://jodydahmer.github.io/bg_maps/])
 
 
-
-Check out our previous work at Beargrassthunder.com (link[https://www.beargrassthunder.com])
+Check out our previous map work at Beargrassthunder.com (link[https://www.beargrassthunder.com])
 This project is using my research and expertise in cartography (mapmaking) to show hidden disparities in Bowling Green, KY Transit and transportation.
  
 What features you chose to include (so we know what to look for)
