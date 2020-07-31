@@ -4,8 +4,7 @@
     <title>My Old Kentucky Roads</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="revised.css">
 <link href='normalize.css' rel='stylesheet' type='text/css'>
 <link href='clearfix.css' rel='stylesheet' type='text/css'>
@@ -93,6 +92,9 @@ For many families, multiple cars are out of the budget. As a result, multiple ge
 
            <p> There are only 11 roads in the city that cross the railroad tracks. </p>
             <p>The residents of Bowling Green need to be able to get between our neighborhoods safely and quickly. Our elderly and disabled residents deserve to be able to get connected to essential services.</p>            
+            
+            <a href="https://www.google.com/maps/d/edit?mid=1SRqhnFGHyCh2bCtm14_L4t4ec669HEHs&usp=sharing">
+              View map</a>
             <p>There are only 19 roads in the city limits that cross the railroad tracks within Bowling Green city limits. Of those 19, only 5 roads allow for “grade separation” where cars and trains to cross at the same time .</p>
            <article> You can see from the map that the North BG neighborhoods and Shake Rag neighborhood are isolated from the rest of BG transit lines and must take a circulator path in order to get to a central “hub”. This will get residents to the destination and will service a wide area of the neighborhood, but it will NOT be fast. 
             When we lose neighborhood connections, we lose a sense of belonging. A trip to the grocery store or to the park for baseball practice can seem almost impossible. A family with two children may not be able to afford two  “Sweet 16” presents of a car in order to  give their child the best opportunities for work and education.  
@@ -127,17 +129,14 @@ For many families, multiple cars are out of the budget. As a result, multiple ge
         <h3> Can we do better?</h3>
         <br>
         <p>Absolutely! </p>
+
+        <img src= "RR_Roads "
         <br>
         <article>
             Bowling Green has a grid downtown, but it is used inefficiently. As a result, neighborhoods and residents are isolated from one another and as a result all commerce suffers. By building a connected city, we can decrease the time it takes to move around Bowling Green, and incentivize smart development along the main corridors of our city. 
         </article>
     </div>
-        
-        <!-- Link map here. Explain in simple terms the map.
-         -->
-        
-
-
+  
 <!-- Contact Form -->
 <div class="item">
 <div id="container">
@@ -149,8 +148,25 @@ For many families, multiple cars are out of the budget. As a result, multiple ge
 
      <label for="email">Email:</label>
      <input type="email" id="email" placeholder="email@website.com">
-      
-        <label>What are you interested in learning more about?:</label>
+     <script>
+       function ValidateEmail(inputText)
+{
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(inputText.value.match(mailformat))
+{
+document.form1.text1.focus();
+return true;
+}
+else
+{
+alert("You have entered an invalid email address!");
+document.form1.text1.focus();
+return false;
+}
+}
+     </script>
+      <br>
+        <br><label>What are you interested in learning more about?:</label>
         <input type="checkbox" id="development" name="user_interest"><label for="development">Bowling Green</label><br>
         <input type="checkbox" id="design" name="user_interest"><label for="design">Louisville</label><br>
         <input type="checkbox" id="business" name="user_interest"><label for="business">Transit! </label><br>
@@ -176,7 +192,7 @@ For many families, multiple cars are out of the budget. As a result, multiple ge
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 
-     <aside>Related links</aside>
+     <aside>Check out more information about maps and other stuff <a href=www.beargrassthunder.com> here! </a> </a></aside>
      <footer>Code Louisville Front End Project</footer>
   </body>
 </html>

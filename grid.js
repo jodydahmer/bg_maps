@@ -67,7 +67,6 @@ console.log( "Rounded down, you drive about" + " " + daysPerYear + " " + standar
   };
 
 
-      print("You said you drove" + carCommuteTime + " " + standardTimeIncrements[1][1]);
-     console.log("You said you drove" + " " + carCommuteTime + " " + standardTimeIncrements[1][1] + "!")
-     ;
+      print("I am Javascript printed to the console! You drove" + "  " + carCommuteTime + "  " + standardTimeIncrements[1][1] + "!");
+     console.log( You drove" + "  " + carCommuteTime + "  " + standardTimeIncrements[1][1] + "!");
 
