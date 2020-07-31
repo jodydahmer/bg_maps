@@ -103,7 +103,8 @@ html {
 
   /*Media Queries*/
   
-  @media only screen and (min-width: 769px) {
+
+  @media only screen and (max-width: 768px) {
   
    * {
      display:flex;
@@ -115,12 +116,10 @@ html {
     }
   
 .item {
-  max-width:450px;
+  width:100%;
 }
 
    
-  
-  }
   
   @media only screen and (min-width: 768px),
          only screen and (min-width: 700px) and (orientation: landscape) {
