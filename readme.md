@@ -11,15 +11,16 @@ This project is using my research and expertise in cartography (mapmaking) to sh
  
 What features you chose to include (so we know what to look for)
 
-1. Image carousel with 3 images that rotate through
-2. Use CSS Grid to rearrange 2 or more content areas on your page as the screen changes sizes
-3. Use media queries to switch from a one-column mobile layout to a two or more column desktop layout 
-4. Create and populate a JavaScript array, then retrieve and display one or more values from it
-5. Use JavaScript to perform math operations and display the result on your site (top left corner of page)
+1. Image carousel with 3 images that rotate through (See revised.css)
+2. Use CSS Grid to rearrange 2 or more content areas on your page as the screen changes sizes (See revised.css)
+3. Use media queries to switch from a one-column mobile layout to a two or more column desktop layout (See revised.css)
+4. Create and populate a JavaScript array, then retrieve and display one or more values from it ( See grid.js)
+5. Use JavaScript to perform math operations and display the result on your site ( I printed the prompt value in top left corner of page)
 
 
 Any special instructions we might need to run your project
  Media Queries are supposed to move the nav bar to underneath the header
+ Javascript will issue a prompt at onload of page, may need to scroll up to top in order to see where it is printed. 
 
 
 
