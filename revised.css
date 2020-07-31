@@ -16,6 +16,8 @@ body {
     grid-template-rows: auto 1fr auto;
 
   }
+
+
 }
 
 header {
@@ -106,7 +108,7 @@ h1 {
   font-weight: bold;
 }
 
-.image {
+img {
 
   max-width:100%;
 max-height:100%;
